@@ -30,6 +30,7 @@ function viewCart() {
           string += ".";
         }
     }
+    console.log(string);
   }
 }
 
