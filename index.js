@@ -18,8 +18,18 @@ return cart;
 }
 
 function viewCart() {
-  if cart.length === 0 {
+  if (cart.length === 0) {
     console.log("Your shopping cart is empty.");
+  } else {
+    for (var i = 0; i < cart.length; i++) {
+      string += `${list} at $${cart[i][list]}`;
+        if(i !== cart.length - 1) {
+          string += ", ";
+        } else {
+          string += "."
+        }
+    }
+    var string = "In your cart, you have ";
   }
 }
 
