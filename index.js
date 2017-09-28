@@ -23,7 +23,7 @@ function viewCart() {
   } else if (cart.length === 1) {
     for (var i = 0; i < cart.length; i++) {
       for (var item in cart[i]) {
-        console.log(`In your cart, you have ${item} at $${cart[i][item]}`);
+        console.log(`In your cart, you have ${item[i]} at $${cart[i][item]}`);
       }
     }
   }
