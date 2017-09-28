@@ -11,7 +11,7 @@ function setCart(c) {
 
 function addToCart(item) {
   var itemName = item;
-  var items = { [itemName]: "itemPrice" };
+  var items = new Object ({ [itemName]: "itemPrice" });
   cart.push(items);
 }
 
