@@ -27,10 +27,9 @@ function viewCart() {
         if(i !== cart.length - 1) {
           string += ", ";
         } else {
-          string += "."
+          string += ".";
         }
     }
-    var string = "In your cart, you have ";
   }
 }
 
