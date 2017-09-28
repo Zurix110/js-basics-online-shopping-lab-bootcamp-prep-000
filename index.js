@@ -12,7 +12,7 @@ function setCart(c) {
 function addToCart(item) {
   var itemName = item;
   var items = new Object ();
-  items.itemName = "item";
+  items.itemName = item;
   items.itemPrice = 0;
   cart.push(items);
 }
