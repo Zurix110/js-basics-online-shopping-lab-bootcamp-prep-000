@@ -14,6 +14,7 @@ function addToCart(item) {
   items.itemName = item;
   items.itemPrice = 0;
   cart.push(items);
+  console.log("item " + "has been added to your cart.");
 }
 
 function viewCart() {
