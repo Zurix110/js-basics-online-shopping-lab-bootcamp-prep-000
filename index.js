@@ -23,8 +23,6 @@ function viewCart() {
   } else if (cart.length === 1) {
     console.log("In your cart, you have " + items.item + " at" + items.itemPrice ".");
   }
-
-
 }
 
 function total() {
