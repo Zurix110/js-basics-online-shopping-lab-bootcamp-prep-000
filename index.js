@@ -11,7 +11,7 @@ function setCart(c) {
 
 function addToCart(item) {
   var itemName = item;
-  var items = new Object({ itemName: "itemPrice.math.random.foor"});
+  var items = new Object({ itemName: itemPrice.math.random.floor});
   cart.push(items);
 }
 
